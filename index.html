@@ -8,6 +8,30 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+
+        <div>
+            <label for="text">Nome e Cognome</label>
+            <input type="text" id="name">
+
+            <label for="number">Km da Percorrere</label>
+            <input type="number" id="kilometers">
+
+            <label for="eta">Fascia d'età</label>
+            <select name="age" id="age">
+                <option value="minorenne">Minorenne</option>
+                <option value="maggiorenne">Maggiorenne</option>
+                <option value="over65">Over65</option>
+            </select>
+
+            <button id="button">Genera</button>
+        </div>
+
+        <div id="showName"></div>
+        <div id="showKm"></div>
+        <div id="showAge"></div>
+        <div id="showPrice"></div>
+
+
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

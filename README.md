@@ -1,4 +1,5 @@
 # js-biglietto-treno-form
+Chiedo all'utente il suo nome
 
 Chiedo all'utente i chilometri che vuole percorrere
     moltiplico il valore inserito * 0.21 -->(prezzo)
