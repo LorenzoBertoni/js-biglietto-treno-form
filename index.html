@@ -9,22 +9,39 @@
     </head>
     <body>
 
-        <div>
-            <label for="text">Nome e Cognome</label>
-            <input type="text" id="name">
+        <h1 class="title">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
 
-            <label for="number">Km da Percorrere</label>
-            <input type="number" id="kilometers">
+        <div class="wrapper">
+            <div class="d-flex">
+                <label for="text" class="label">Nome e Cognome</label>
+                <input type="text" id="name" class="input">
+            </div>
 
-            <label for="eta">Fascia d'età</label>
-            <select name="age" id="age">
-                <option value="minorenne">Minorenne</option>
-                <option value="maggiorenne">Maggiorenne</option>
-                <option value="over65">Over65</option>
-            </select>
+            <div class="d-flex">
+                <label for="number" class="label">Km da Percorrere</label>
+                <input type="number" id="kilometers" class="input">
+            </div>
 
-            <button id="button">Genera</button>
+            <div class="d-flex">
+                <label for="eta" class="label">Fascia d'età</label>
+                <select name="age" id="age" class="input">
+                    <option value="minorenne">Minorenne</option>
+                    <option value="maggiorenne">Maggiorenne</option>
+                    <option value="over65">Over65</option>
+                </select>
+            </div>
+
+            <div class="container">
+                <button id="button" class="btn">Genera</button>
+                <button id="cancel" class="btn">Annulla</button>
+            </div>
         </div>
+        
+
+
+
+
+
 
         <div id="showName"></div>
         <div id="showKm"></div>
