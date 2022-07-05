@@ -67,6 +67,15 @@ body{
     background-color: #fff;
 }
 
+.ticket.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}
+
+
 .nome-passeggero{
     background-color: #808080;
 }
