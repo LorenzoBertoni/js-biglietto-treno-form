@@ -60,3 +60,26 @@ body{
     padding: .3rem;
     font-weight: bold;
 }
+
+.ticket{
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.nome-passeggero{
+    background-color: #808080;
+}
+
+
+.ticket-cnt{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.nome-passeggero, .offerta, .carrozza,
+.codice-CP, .costo-biglietto{
+    height: 120px;
+    padding: 1rem 1rem;
+}
