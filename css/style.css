@@ -67,6 +67,10 @@ body{
     background-color: #fff;
 }
 
+.side-title{
+    margin-left: 4rem;
+}
+
 .ticket.d-block{
     display: block;
 }
@@ -91,4 +95,13 @@ body{
 .codice-CP, .costo-biglietto{
     height: 120px;
     padding: 1rem 1rem;
+}
+
+.result{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.boldResult{
+    font-weight: bold;
 }

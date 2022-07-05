@@ -15,7 +15,7 @@ let minorPrice = ticketPrice - minorDiscount;
 let over65Price = ticketPrice - over65Discount;
 
 //variabli per numeri random
-let carriageNumber = Math.floor(Math.random() * 11);
+let carriageNumber = Math.floor(Math.random() * 10) + 1;
 let cpNumber = Math.floor(Math.random() * 10000) + 90000;
 
 let showTicket = document.querySelector('.ticket');
@@ -37,11 +37,11 @@ let submit = document.getElementById('button');
 
                 document.getElementById('showCode').innerHTML = cpNumber;
 
-                document.getElementById('showPrice').innerHTML = (ticketPrice + ' &euro;');
+                document.getElementById('showPrice').innerHTML = (ticketPrice.toFixed(2) + ' &euro;');
                     if (ageRange == 'minorenne') {
-                        document.getElementById('showPrice').innerHTML = (minorPrice + ' &euro;');
+                        document.getElementById('showPrice').innerHTML = (minorPrice.toFixed(2) + ' &euro;');
                     } else if (ageRange == 'over65') {
-                        document.getElementById('showPrice').innerHTML = (over65Price + ' &euro;');
+                        document.getElementById('showPrice').innerHTML = (over65Price.toFixed(2) + ' &euro;');
                     } else {
                         alert('seleziona la tua età');
                     }
